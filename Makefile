@@ -7,7 +7,7 @@ start:
 
 stop:
 	@echo "Stopping..."
-	-pkill -f "src/record_and_stream.py" || true
+	-pkill -f "src/translation.py" || true
 	-pkill -f "ffmpeg" || true
 	@echo "Stopped."
 
